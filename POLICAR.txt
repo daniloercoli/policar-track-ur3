@@ -1,0 +1,187 @@
+[default]
+Library= Policar New
+Scale=1:32
+Unit=cm
+Author=Danilo Ercoli, ercoli@gmail.com
+DateRevision=Rev. 0.1, Updt Oct2019
+Logo=policar.jpg
+MaxLane=6
+
+[includes]
+file1=policar_borders.inc
+
+[P008]
+Name=Straight
+Notes=
+Shape=17.9,35.8
+Equivalent=
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+
+[P023]
+Name=Half Straight
+Notes=
+Shape=17.9,17.9
+Equivalent=
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+
+[P024]
+Name=Quarter Straight
+Notes=
+Shape=17.9,6.14
+Equivalent=
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+
+[P009]
+Name=R1 45° Curve
+Notes=
+Shape=curve,8.9,17.9,45.0
+Equivalent=
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+
+[P014]
+Name=R2 45° Curve
+Notes=
+Shape=curve,26.8,17.9,45.0
+Equivalent=
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+
+[P044]
+Name=R3 22.5° Curve
+Notes=
+Shape=curve,44.7,17.9,22.5
+Equivalent=
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+
+[P045]
+Name=R4 22.5° Curve
+Notes=
+Shape=curve,62.6,17.9,22.5
+Equivalent=
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+
+[2xP008]
+Name=4L Straight
+Notes=
+Shape=35.8,35.8
+Equivalent=P008/2
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+
+[2xP023]
+Name=4L Half Straight
+Notes=
+Shape=35.8,17.9
+Equivalent=P023/2
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+
+[2xP024]
+Name=4L Quarter Straight
+Notes=
+Shape=35.8,6.14
+Equivalent=P024/2
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+
+[4L-R1]
+Name=4L R1
+Notes=
+Shape=curve,8.9,35.8,45.0
+Equivalent=P009/1;P014/1;
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+
+[4L-R2]
+Name=4L R2
+Notes=
+Shape=curve,26.8,35.8,45.0
+Equivalent=P014/1;P044/2;
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+
+[4L-R3]
+Name=4L R2
+Notes=
+Shape=curve,44.7,35.8,22.5
+Equivalent=P044/1;P045/1;
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+
+[3xP008]
+Name=6L Straight
+Notes=
+Shape=53.7,35.8
+Equivalent=P008/3
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+Lane5=40.45,40.45
+Lane6=49.45,49.45
+
+[3xP023]
+Name=6L Half Straight
+Notes=
+Shape=53.7,17.9
+Equivalent=P023/3
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+Lane5=40.45,40.45
+Lane6=49.45,49.45
+
+[3xP024]
+Name=6L Quarter Straight
+Notes=
+Shape=53.7,6.14
+Equivalent=P024/3
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+Lane5=40.45,40.45
+Lane6=49.45,49.45
+
+[6L-R1]
+Name=6L R1 
+Notes=
+Shape=curve,8.9,53.7,45.0
+Equivalent=P009/1;P014/1;P044/2;
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+Lane5=40.45,40.45
+Lane6=49.45,49.45
+
+[6L-R2]
+Name=6L R2 
+Notes=
+Shape=curve,26.8,53.7,45.0
+Equivalent=P014/1;P044/2;P045/2;
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+Lane5=40.45,40.45
+Lane6=49.45,49.45
