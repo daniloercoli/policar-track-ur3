@@ -13,7 +13,7 @@ Texture2=e,niborder1,c,1,-1,45,2.9,6,1
 
 [P053]
 Name=R1 Outer border
-Shape=curve,26.85,-6.0,45
+Shape=curve,26.85,-6.0,22.5
 ColorCoding=8421504
 Texture1=f,200,200,200
 Texture2=
@@ -27,7 +27,7 @@ Texture2=
 
 [P054]
 Name=R2 Outer border
-Shape=curve,44.75,-6.0,45
+Shape=curve,44.75,-6.0,22.5
 ColorCoding=8421504
 Texture1=f,200,200,200
 Texture2=
@@ -55,7 +55,7 @@ Texture2=
 
 [P056]
 Name=R4 Outer border
-Shape=curve,80.55,-6,22.5
+Shape=curve,80.55,-6,12.25
 ColorCoding=8421504
 Texture1=f,200,200,200
 Texture2=
