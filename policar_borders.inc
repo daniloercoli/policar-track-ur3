@@ -60,6 +60,14 @@ ColorCoding=8421504
 Texture1=f,200,200,200
 Texture2=
 
+[2xP002]
+Name=35cm Straight Border
+Shape=6.00,35.0
+Equivalent=P002/2;
+ColorCoding=8421504
+Texture1=f,200,200,200
+Texture2=
+
 [P002]
 Name=17.9cm Straight Border
 Shape=6.00,17.90
