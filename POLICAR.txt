@@ -5,7 +5,7 @@ Unit=cm
 Author=Danilo Ercoli, ercoli@gmail.com
 DateRevision=Rev. 0.1, Updt Oct2019
 Logo=policar.jpg
-MaxLane=6
+MaxLane=8
 
 [includes]
 file1=policar_borders.inc
@@ -185,3 +185,59 @@ Lane3=22.45,22.45
 Lane4=31.45,31.45
 Lane5=40.45,40.45
 Lane6=49.45,49.45
+
+[4xP008]
+Name=8L Straight
+Notes=
+Shape=71.6,35.8
+Equivalent=P008/4
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+Lane5=40.45,40.45
+Lane6=49.45,49.45
+Lane7=58.45,58.45
+Lane8=67.45,67.45
+
+[4xP023]
+Name=8L Half Straight
+Notes=
+Shape=71.6,17.9
+Equivalent=P023/4
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+Lane5=40.45,40.45
+Lane6=49.45,49.45
+Lane7=58.45,58.45
+Lane8=67.45,67.45
+
+[4xP024]
+Name=8L Quarter Straight
+Notes=
+Shape=71.6,6.14
+Equivalent=P024/4
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+Lane5=40.45,40.45
+Lane6=49.45,49.45
+Lane7=58.45,58.45
+Lane8=67.45,67.45
+
+[8L-R1]
+Name=8L R1 
+Notes=
+Shape=curve,8.9,71.6,45.0
+Equivalent=P009/1;P014/1;P044/2;P045/2;
+Lane1=4.45,4.45
+Lane2=13.45,13.45
+Lane3=22.45,22.45
+Lane4=31.45,31.45
+Lane5=40.45,40.45
+Lane6=49.45,49.45
+Lane7=58.45,58.45
+Lane8=67.45,67.45
