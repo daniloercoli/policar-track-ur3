@@ -8,91 +8,78 @@ Logo=policar.jpg
 Name=R1 Inner border
 Shape=curve,2.9,6,45
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=e,niborder1,c,1,-1,45,2.9,6,1
+Texture1=f,0,0,0
 
 [P053]
 Name=R1 Outer border
 Shape=curve,26.85,-6.0,22.5
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [P052]
 Name=R2 Inner border
 Shape=curve,20.85,6,45
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [P054]
 Name=R2 Outer border
 Shape=curve,44.75,-6.0,22.5
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [P057]
 Name=R3 Inner border
 Shape=curve,38.75,6,22.5
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [P058]
 Name=R3 Outer border
 Shape=curve,62.65,-6,22.5
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [P055]
 Name=R4 Inner border
 Shape=curve,56.65,6,22.5
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [P056]
 Name=R4 Outer border
-Shape=curve,80.55,-6,12.25
+Shape=curve,80.55,-6,11.25
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [2xP002]
 Name=35cm Straight Border
-Shape=6.00,35.0
+Shape=6.00,35.8
 Equivalent=P002/2;
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [P002]
 Name=17.9cm Straight Border
 Shape=6.00,17.90
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [P061]
 Name= 6.14cm Straight Border
 Shape=6.00,6.14
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [P059]
 Name=End left border
 Shape=pie,6,-10
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
 [P060]
 Name=End right border
 Shape=pie,6,10
 ColorCoding=8421504
-Texture1=f,200,200,200
-Texture2=
+Texture1=f,0,0,0
 
