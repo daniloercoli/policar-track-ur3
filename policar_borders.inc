@@ -4,27 +4,31 @@ Scale=1:32
 Unit=cm
 Logo=policar.jpg
 
-[P051]
+[2xP051]
 Name=R1 Inner border
-Shape=curve,2.9,6,45
+Shape=curve,2.9,6,45.0
+Equivalent=P051/2;
 ColorCoding=8421504
 Texture1=f,0,0,0
 
-[P053]
+[2xP053]
 Name=R1 Outer border
-Shape=curve,26.85,-6.0,22.5
+Shape=curve,26.85,-6.0,45.0
+Equivalent=P053/2;
 ColorCoding=8421504
 Texture1=f,0,0,0
 
-[P052]
+[2xP052]
 Name=R2 Inner border
-Shape=curve,20.85,6,45
+Shape=curve,20.85,6,45.0
+Equivalent=P052/2;
 ColorCoding=8421504
 Texture1=f,0,0,0
 
-[P054]
+[2xP054]
 Name=R2 Outer border
-Shape=curve,44.75,-6.0,22.5
+Shape=curve,44.75,-6.0,45.0
+Equivalent=P054/2;
 ColorCoding=8421504
 Texture1=f,0,0,0
 
@@ -48,7 +52,7 @@ Texture1=f,0,0,0
 
 [P056]
 Name=R4 Outer border
-Shape=curve,80.55,-6,11.25
+Shape=curve,80.55,-6,22.5
 ColorCoding=8421504
 Texture1=f,0,0,0
 
@@ -80,6 +84,31 @@ Texture1=f,0,0,0
 [P060]
 Name=End right border
 Shape=pie,6,10
+ColorCoding=8421504
+Texture1=f,0,0,0
+
+
+[P051]
+Name=R1 Half Inner border
+Shape=curve,2.9,6,22.5
+ColorCoding=8421504
+Texture1=f,0,0,0
+
+[P053]
+Name=R1 Half Outer border
+Shape=curve,26.85,-6.0,22.5
+ColorCoding=8421504
+Texture1=f,0,0,0
+
+[P052]
+Name=R2 Half Inner border
+Shape=curve,20.85,6,22.5
+ColorCoding=8421504
+Texture1=f,0,0,0
+
+[P054]
+Name=R2 Half Outer border
+Shape=curve,44.75,-6.0,22.5
 ColorCoding=8421504
 Texture1=f,0,0,0
 
