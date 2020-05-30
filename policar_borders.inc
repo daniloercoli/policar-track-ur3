@@ -6,7 +6,7 @@ Logo=policar.jpg
 
 [2xP051]
 Name=R1 Inner border
-Shape=curve,2.9,6,45.0
+Shape=curve,2.95,6,45.0
 Equivalent=P051/2;
 ColorCoding=8421504
 Texture1=f,0,0,0
@@ -32,32 +32,32 @@ Equivalent=P054/2;
 ColorCoding=8421504
 Texture1=f,0,0,0
 
-[P057]
+[P055]
 Name=R3 Inner border
 Shape=curve,38.75,6,22.5
 ColorCoding=8421504
 Texture1=f,0,0,0
 
-[P058]
+[P056]
 Name=R3 Outer border
 Shape=curve,62.65,-6,22.5
 ColorCoding=8421504
 Texture1=f,0,0,0
 
-[P055]
+[P057]
 Name=R4 Inner border
 Shape=curve,56.65,6,22.5
 ColorCoding=8421504
 Texture1=f,0,0,0
 
-[P056]
+[P058]
 Name=R4 Outer border
 Shape=curve,80.55,-6,22.5
 ColorCoding=8421504
 Texture1=f,0,0,0
 
 [2xP002]
-Name=35cm Straight Border
+Name=35.8cm Straight Border
 Shape=6.00,35.8
 Equivalent=P002/2;
 ColorCoding=8421504
@@ -90,7 +90,7 @@ Texture1=f,0,0,0
 
 [P051]
 Name=R1 Half Inner border
-Shape=curve,2.9,6,22.5
+Shape=curve,2.95,6,22.5
 ColorCoding=8421504
 Texture1=f,0,0,0
 

@@ -16,8 +16,8 @@ Notes=
 Shape=17.9,35.8
 Equivalent=
 ColorCoding=16744448
-Lane1=4.45,4.45
-Lane2=13.45,13.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
 
 [P023]
 Name=Half Straight
@@ -25,53 +25,62 @@ Notes=
 Shape=17.9,17.9
 Equivalent=
 ColorCoding=16747607
-Lane1=4.45,4.45
-Lane2=13.45,13.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
 
 [P024]
-Name=Quarter Straight
+Name=Magic Straight
 Notes=
 Shape=17.9,6.14
 Equivalent=
 ColorCoding=16729614
-Lane1=4.45,4.45
-Lane2=13.45,13.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
 
 [P009]
 Name=R1 45° Curve
 Notes=
-Shape=curve,8.9,17.9,45.0
+Shape=curve,8.95,17.9,45.0
 Equivalent=
 ColorCoding=8523519
-Lane1=4.45,4.45
-Lane2=13.45,13.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
 
 [P014]
 Name=R2 45° Curve
 Notes=
-Shape=curve,26.8,17.9,45.0
+Shape=curve,26.85,17.9,45.0
 Equivalent=
 ColorCoding=921343
-Lane1=4.45,4.45
-Lane2=13.45,13.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+
+[P043]
+Name=R2 22.5° Curve
+Notes=
+Shape=curve,26.85,17.9,22.5
+Equivalent=
+ColorCoding=921343
+Lane1=4.47,4.47
+Lane2=13.42,13.42
 
 [P044]
 Name=R3 22.5° Curve
 Notes=
-Shape=curve,44.7,17.9,22.5
+Shape=curve,44.75,17.9,22.5
 Equivalent=
 ColorCoding=196
-Lane1=4.45,4.45
-Lane2=13.45,13.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
 
 [P045]
 Name=R4 22.5° Curve
 Notes=
-Shape=curve,62.6,17.9,22.5
+Shape=curve,62.65,17.9,22.5
 Equivalent=
 ColorCoding=951039
-Lane1=4.45,4.45
-Lane2=13.45,13.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
 
 [2xP008]
 Name=4L Straight
@@ -79,10 +88,10 @@ Notes=
 Shape=35.8,35.8
 Equivalent=P008/2
 ColorCoding=16744448
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
 
 [2xP023]
 Name=4L Half Straight
@@ -90,54 +99,65 @@ Notes=
 Shape=35.8,17.9
 Equivalent=P023/2
 ColorCoding=16747607
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
 
 [2xP024]
-Name=4L Quarter Straight
+Name=4L Magic Straight
 Notes=
 Shape=35.8,6.14
 Equivalent=P024/2
 ColorCoding=16729614
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
 
 [4L-R1]
 Name=4L R1
 Notes=
-Shape=curve,8.9,35.8,45.0
+Shape=curve,8.95,35.8,45.0
 Equivalent=P009/1;P014/1;
 ColorCoding=8523519
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
 
-[4L-R2]
-Name=4L R2
+[4L-R2-45]
+Name=4L R2 45°
 Notes=
-Shape=curve,26.8,35.8,45.0
+Shape=curve,26.85,35.8,45.0
 Equivalent=P014/1;P044/2;
 ColorCoding=921343
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+
+[4L-R2-225]
+Name=4L R2 22.5°
+Notes=
+Shape=curve,26.85,35.8,22.5
+Equivalent=P014/1;P044/2;
+ColorCoding=921343
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
 
 [4L-R3]
-Name=4L R2
+Name=4L R3
 Notes=
-Shape=curve,44.7,35.8,22.5
+Shape=curve,44.75,35.8,22.5
 Equivalent=P044/1;P045/1;
 ColorCoding=196
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
 
 [3xP008]
 Name=6L Straight
@@ -145,12 +165,12 @@ Notes=
 Shape=53.7,35.8
 Equivalent=P008/3
 ColorCoding=16744448
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
-Lane5=40.45,40.45
-Lane6=49.45,49.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+Lane5=40.27,40.27
+Lane6=49.22,49.22
 
 [3xP023]
 Name=6L Half Straight
@@ -158,51 +178,65 @@ Notes=
 Shape=53.7,17.9
 Equivalent=P023/3
 ColorCoding=16747607
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
-Lane5=40.45,40.45
-Lane6=49.45,49.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+Lane5=40.27,40.27
+Lane6=49.22,49.22
 
 [3xP024]
-Name=6L Quarter Straight
+Name=6L Magic Straight
 Notes=
 Shape=53.7,6.14
 Equivalent=P024/3
 ColorCoding=16729614
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
-Lane5=40.45,40.45
-Lane6=49.45,49.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+Lane5=40.27,40.27
+Lane6=49.22,49.22
 
 [6L-R1]
 Name=6L R1 
 Notes=
-Shape=curve,8.9,53.7,45.0
+Shape=curve,8.95,53.7,45.0
 Equivalent=P009/1;P014/1;P044/2;
 ColorCoding=8523519
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
-Lane5=40.45,40.45
-Lane6=49.45,49.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+Lane5=40.27,40.27
+Lane6=49.22,49.22
 
-[6L-R2]
-Name=6L R2 
+[6L-R2-45]
+Name=6L R2 45°
 Notes=
-Shape=curve,26.8,53.7,45.0
+Shape=curve,26.85,53.7,45.0
 Equivalent=P014/1;P044/2;P045/2;
 ColorCoding=921343
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
-Lane5=40.45,40.45
-Lane6=49.45,49.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+Lane5=40.27,40.27
+Lane6=49.22,49.22
+
+[6L-R2-225]]
+Name=6L R2 22.5°
+Notes=
+Shape=curve,26.85,53.7,22.5
+Equivalent=P014/1;P044/2;P045/2;
+ColorCoding=921343
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+Lane5=40.27,40.27
+Lane6=49.22,49.22
+
 
 [4xP008]
 Name=8L Straight
@@ -210,14 +244,14 @@ Notes=
 Shape=71.6,35.8
 Equivalent=P008/4
 ColorCoding=16744448
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
-Lane5=40.45,40.45
-Lane6=49.45,49.45
-Lane7=58.45,58.45
-Lane8=67.45,67.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+Lane5=40.27,40.27
+Lane6=49.22,49.22
+Lane7=58.17,58.17
+Lane8=67.12,67.12
 
 [4xP023]
 Name=8L Half Straight
@@ -225,41 +259,43 @@ Notes=
 Shape=71.6,17.9
 Equivalent=P023/4
 ColorCoding=16747607
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
-Lane5=40.45,40.45
-Lane6=49.45,49.45
-Lane7=58.45,58.45
-Lane8=67.45,67.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+Lane5=40.27,40.27
+Lane6=49.22,49.22
+Lane7=58.17,58.17
+Lane8=67.12,67.12
 
 [4xP024]
-Name=8L Quarter Straight
+Name=8L Magic Straight
 Notes=
 Shape=71.6,6.14
 Equivalent=P024/4
 ColorCoding=16729614
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
-Lane5=40.45,40.45
-Lane6=49.45,49.45
-Lane7=58.45,58.45
-Lane8=67.45,67.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+Lane5=40.27,40.27
+Lane6=49.22,49.22
+Lane7=58.17,58.17
+Lane8=67.12,67.12
 
 [8L-R1]
 Name=8L R1 
 Notes=
-Shape=curve,8.9,71.6,45.0
+Shape=curve,8.95,71.6,45.0
 Equivalent=P009/1;P014/1;P044/2;P045/2;
 ColorCoding=8523519
-Lane1=4.45,4.45
-Lane2=13.45,13.45
-Lane3=22.45,22.45
-Lane4=31.45,31.45
-Lane5=40.45,40.45
-Lane6=49.45,49.45
-Lane7=58.45,58.45
-Lane8=67.45,67.45
+Lane1=4.47,4.47
+Lane2=13.42,13.42
+Lane3=22.37,22.37
+Lane4=31.32,31.32
+Lane5=40.27,40.27
+Lane6=49.22,49.22
+Lane7=58.17,58.17
+Lane8=67.12,67.12
+
+
