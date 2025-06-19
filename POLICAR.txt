@@ -3,7 +3,7 @@ Library= Policar New
 Scale=1:32
 Unit=cm
 Author=Danilo Ercoli, ercoli@gmail.com
-DateRevision=Rev. 0.1, Updt Oct2019
+DateRevision=Rev. 0.2, Update June 2025
 Logo=policar.jpg
 MaxLane=8
 

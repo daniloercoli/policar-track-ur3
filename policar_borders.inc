@@ -56,6 +56,18 @@ Shape=curve,80.55,-6,22.5
 ColorCoding=8421504
 Texture1=f,0,0,0
 
+[P071]
+Name=R5 Inner border
+Shape=curve,74.55,6,22.5
+ColorCoding=8421504
+Texture1=f,0,0,0
+
+[P072]
+Name=R5 Outer border
+Shape=curve,98.45,-6,22.5
+ColorCoding=8421504
+Texture1=f,0,0,0
+
 [2xP002]
 Name=35.8cm Straight Border
 Shape=6.00,35.8
